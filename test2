@@ -50,7 +50,7 @@ tmp3=1
 	git add "$tmp2"
 	echo -n "git commit -m "
 	read temp3
-	git commit -m "$tmp3"
+	git commit -m $tmp3
         echo "push master "
         git push origin $tmp1
 fi
