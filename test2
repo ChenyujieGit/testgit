@@ -1,4 +1,10 @@
 #!/bin/bash
+echo "##################################"
+echo "# find clk* file command is cmd1 #"
+echo "# find clk string .cfile is cmd2 #"
+echo "#      set git command is cmd3   #"
+echo "#   exit shell is Ctrl + d       #"
+echo "##################################"
 #kernel文件夹位置
 echo -n "Please input kernel dir:"
 read linux
