@@ -41,7 +41,7 @@ read_dir $kernel
 elif [ $cmd = "cmd3" ]
 then
 tmp1=1
-tem2=1
+tmp2=1
 tmp3=1
 	echo  "#####指定分支####"
         read tmp1
@@ -49,9 +49,9 @@ tmp3=1
 	read tmp2
 	git add "$tmp2"
 	echo -n "git commit -m "
-	read temp3
+	read tmp3
 	git commit -m $tmp3
-        echo "push master "
+        echo "####push master#### "
         git push origin $tmp1
 fi
 done
