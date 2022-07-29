@@ -1,6 +1,6 @@
 #!/bin/bash
 #kernel文件夹位置
-kernel="/mnt/hgfs/1linux/linux/kernel"
+kernel="/mnt/hgfs/1linux/linux"
 linux="/mnt/hgfs/1linux/linux"
 #git仓库连接
 cmd=1
@@ -14,11 +14,13 @@ then
 	for filename in $kernel/*
 	do
 	if [ -f "$filename" ]
+		
 	then
 		name=$(basename "$filename")
-		if [[ "$name" == "cpu"* ]]
+		echo "$filename"
+		if [[ "$name" == "clk"* ]]
 		then
-		echo "cpu开头的文件: $name"
+		echo "clk开头的文件: $name"
 	fi
 	fi
 	done
