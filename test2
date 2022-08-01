@@ -47,29 +47,3 @@ if [ -n "$3" ] && [ "$3" != "$2" ] && [ "$3" != "$2" ]
 then
 func2 $3
 fi
-:<<!
-#//查找clk文件
-if [ $cmd = "cmd1" ]
-then
-	find "$kernel" -iname clk*
-elif [ $cmd = "cmd2" ]
-then 
-	grep "clk" -l -r "$kernel" -nR --include=*.c
-elif [ $cmd = "cmd3" ]
-then
-tmp1=1
-tmp2=1
-tmp3=1
-	echo  "#####指定分支####"
-        read tmp1
-        echo "####指定文件####"
-	read tmp2
-	git add "$tmp2"
-	echo -n "git commit -m "
-	read tmp3
-	git commit -m $tmp3
-        echo "####push master#### "
-        git push origin $tmp1
-fi
-done
-!
