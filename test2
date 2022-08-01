@@ -1,49 +1,60 @@
 #!/bin/bash
+func1(){
 echo "##################################"
-echo "# find clk* file command is cmd1 #"
-echo "# find clk string .cfile is cmd2 #"
-echo "#      set git command is cmd3   #"
+echo "# -a find clk* file command      #"
+echo "# -b find clk string .cfile      #"
+echo "# -c   set git command           #"
 echo "#   exit shell is Ctrl + d       #"
 echo "##################################"
-#kernel文件夹位置
-echo -n "Please input kernel dir:"
-read linux
-kernel="$linux"
-cmd=1
-read_dir(){
-	for file in  `ls $1`
-	do
-		filename=$1"/"$file
-		if [ -d "$filename" ]
-		then
-		read_dir $filename
-		elif [ -f "$filename" ]
-		then
-		#name=$(basename "$filename")
-                ext="${file##*.}"
-                	if [ "$ext" =  "c" ]
-                	then
-                	grep -q "clk" "$filename"
-                        	if [ $? -eq 0 ]
-                        	then
-                        	echo "含有clk字符的c文件：$filename"
-                       	 	continue
-                        	fi
-			fi
-		fi
-	done
 }
-while [ $cmd != "EOF" ]
-do
-echo -n "Please input command: "
-read cmd
+func2(){
+case $1 in
+-a)
+echo;echo;
+echo "####output clk* file#####"
+find "$kernel" -iname clk*
+echo "######output finish######";;
+-b)
+echo;echo;
+echo "###output clk string .c file####"
+grep "clk" -l -r "$kernel" -nR --include=*.c
+echo "#########output finish##########";;
+-c)
+branch=1
+filename=1
+commit=1
+echo -n "input git branch、filename、commit:"
+read branch filename commit
+git checkout "$branch"
+git add "$filename"
+git commit -m "$commit"
+git status
+esac
+}
+kernel="/mnt/hgfs/1linux/linux"
+if [ -z "$1" ]
+then
+func1
+elif [ -n "$1" ]
+then
+func2 $1
+fi
+if [ -n "$2" ] && [ "$2" != "$1" ]
+then
+func2 $2
+fi
+if [ -n "$3" ] && [ "$3" != "$2" ] && [ "$3" != "$2" ]
+then
+func2 $3
+fi
+:<<!
 #//查找clk文件
 if [ $cmd = "cmd1" ]
 then
 	find "$kernel" -iname clk*
 elif [ $cmd = "cmd2" ]
 then 
-read_dir $kernel
+	grep "clk" -l -r "$kernel" -nR --include=*.c
 elif [ $cmd = "cmd3" ]
 then
 tmp1=1
@@ -61,3 +72,4 @@ tmp3=1
         git push origin $tmp1
 fi
 done
+!
