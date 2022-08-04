@@ -1,0 +1,16 @@
+PN: atu-daemon
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_atu-daemon-dev: ATU daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_atu-daemon-dev: atu-daemon version 1.0-r4 - Development files
+RDEPENDS_atu-daemon-dev: atu-daemon (= 1.0-r4)
+RRECOMMENDS_atu-daemon-dev: glibc-dev initscripts-dev
+SECTION_atu-daemon-dev: devel
+PKG_atu-daemon-dev: atu-daemon-dev
+ALLOW_EMPTY_atu-daemon-dev: 1
+FILES_atu-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/atu-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_atu-daemon-dev: 0

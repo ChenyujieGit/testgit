@@ -1,0 +1,14 @@
+PN: sdcard
+PV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PR: r3
+PKGV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_sdcard-staticdev: sdcard  This package contains static libraries for software development.
+SUMMARY_sdcard-staticdev: sdcard version git-ffa7099523604889ab9085c68d6dbe4676230288-r3 - Development files (Static Libraries)
+RDEPENDS_sdcard-staticdev: sdcard-dev (= git-ffa7099523604889ab9085c68d6dbe4676230288-r3)
+SECTION_sdcard-staticdev: devel
+PKG_sdcard-staticdev: sdcard-staticdev
+FILES_sdcard-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/sdcard/*.a
+FILES_INFO: {}
+PKGSIZE_sdcard-staticdev: 0

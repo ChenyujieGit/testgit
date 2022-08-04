@@ -1,0 +1,14 @@
+PN: gensecimage
+PV: git-0f730d19db5b530b6e5ab02ae6500adb7c426393
+PR: r2
+PKGV: git-0f730d19db5b530b6e5ab02ae6500adb7c426393
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gensecimage-dbg: gensecimage signed appsbootloader image creation   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gensecimage-dbg: gensecimage version git-0f730d19db5b530b6e5ab02ae6500adb7c426393-r2 - Debugging files
+SECTION_gensecimage-dbg: devel
+PKG_gensecimage-dbg: gensecimage-dbg
+ALLOW_EMPTY_gensecimage-dbg: 1
+FILES_gensecimage-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gensecimage/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gensecimage/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gensecimage/gensecimage/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_gensecimage-dbg: 0

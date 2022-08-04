@@ -1,0 +1,14 @@
+PN: acdbrtac
+PV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PR: r3
+PKGV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbrtac-doc: acdb rtac Library  This package contains documentation.
+SUMMARY_acdbrtac-doc: acdbrtac version git-ded3b72614dd8b6cbf1146035b0e4960f16948f6-r3 - Documentation files
+RPROVIDES_acdbrtac-doc:  acdbrtac-doc
+SECTION_acdbrtac-doc: doc
+PKG_acdbrtac-doc: libacdbrtac-doc
+FILES_acdbrtac-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_acdbrtac-doc: 0

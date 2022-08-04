@@ -1,0 +1,14 @@
+PN: helloworld
+PV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PR: r1
+PKGV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_helloworld-staticdev: helloworld  This package contains static libraries for software development.
+SUMMARY_helloworld-staticdev: helloworld version git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r1 - Development files (Static Libraries)
+RDEPENDS_helloworld-staticdev: helloworld-dev (= git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r1)
+SECTION_helloworld-staticdev: devel
+PKG_helloworld-staticdev: helloworld-staticdev
+FILES_helloworld-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/helloworld/*.a
+FILES_INFO: {}
+PKGSIZE_helloworld-staticdev: 0

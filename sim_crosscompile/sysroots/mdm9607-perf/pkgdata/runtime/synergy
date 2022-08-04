@@ -1,0 +1,26 @@
+PN: synergy
+PV: git-9029802f74752dd191940fe4e13a6e8bddc59947
+PR: r0
+PKGV: git-9029802f74752dd191940fe4e13a6e8bddc59947
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QTI Synergy BT Stack
+SUMMARY: synergy version git-9029802f74752dd191940fe4e13a6e8bddc59947-r0
+RDEPENDS_synergy: diag (>= git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c) glibc (>= 2.21) libgcc (>= 4.9.2) mcm-core (>= git-0179c58468feddf7ccce697f495cc557df367dc1)
+RRECOMMENDS_synergy:  update-rc.d
+SECTION: base
+PKG_synergy: synergy
+ALLOW_EMPTY_synergy: 1
+FILES_synergy:  usr/bin/ usr/lib/ data/bluetooth/ etc/
+pkg_postinst_synergy: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT synergy.sh defaults 20\nfi\n
+pkg_postrm_synergy: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT synergy.sh remove\nfi\n
+pkg_preinst_synergy: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/synergy.sh" ]; then\n\t/etc/init.d/synergy.sh stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT synergy.sh remove\nfi\n
+pkg_prerm_synergy: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/synergy.sh stop\nfi\n
+FILERPROVIDESFLIST_synergy: /usr/bin/bt@underscore@bootstrap /usr/bin/csr@underscore@bt@underscore@app@underscore@default@underscore@hci
+FILES_INFO: {"/usr/bin/bt_hfg_audio.sh": 11375, "/data/bluetooth/firmware.conf": 1534, "/usr/bin/bt_bootstrap": 55564, "/usr/bin/bt_pan.sh": 2921, "/usr/bin/mdm_ril_daemon.sh": 1368, "/usr/bin/synergy.sh": 8195, "/usr/bin/csr_bt_app_default_hci": 3556744, "/usr/bin/bt_hf_audio.sh": 5913, "/etc/default_firmware.conf": 1534}
+FILERPROVIDES_/usr/bin/bt@underscore@bootstrap_synergy: elf(buildid) (= c0b2978105160030df6ea3501e608a592429e334)
+FILERPROVIDES_/usr/bin/csr@underscore@bt@underscore@app@underscore@default@underscore@hci_synergy: elf(buildid) (= 05b16eb765fa91fb4ff9ccd133ebb3c46ee05ef2)
+FILERDEPENDSFLIST_synergy: /usr/bin/bt@underscore@bootstrap /usr/bin/csr@underscore@bt@underscore@app@underscore@default@underscore@hci
+FILERDEPENDS_/usr/bin/bt@underscore@bootstrap_synergy: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/csr@underscore@bt@underscore@app@underscore@default@underscore@hci_synergy: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdiag.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libmcm.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_synergy: 3645148

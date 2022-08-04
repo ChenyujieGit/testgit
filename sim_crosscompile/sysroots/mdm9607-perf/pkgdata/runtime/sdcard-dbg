@@ -1,0 +1,15 @@
+PN: sdcard
+PV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PR: r3
+PKGV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_sdcard-dbg: sdcard  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_sdcard-dbg: sdcard version git-ffa7099523604889ab9085c68d6dbe4676230288-r3 - Debugging files
+RRECOMMENDS_sdcard-dbg: qmi-framework-dbg glibc-dbg qmi-dbg
+SECTION_sdcard-dbg: devel
+PKG_sdcard-dbg: sdcard-dbg
+ALLOW_EMPTY_sdcard-dbg: 1
+FILES_sdcard-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sdcard/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sdcard/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sdcard/sdcard/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/sdcard": 9193}
+PKGSIZE_sdcard-dbg: 9193

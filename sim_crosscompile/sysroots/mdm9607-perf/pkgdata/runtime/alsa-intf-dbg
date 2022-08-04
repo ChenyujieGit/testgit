@@ -1,0 +1,15 @@
+PN: alsa-intf
+PV: git-084e4b30734404e8a26ed224e8ccb81d77dfabc6
+PR: r4
+PKGV: git-084e4b30734404e8a26ed224e8ccb81d77dfabc6
+PKGR: r4
+LICENSE: Apache-2.0
+DESCRIPTION_alsa-intf-dbg: ALSA Framework Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_alsa-intf-dbg: alsa-intf version git-084e4b30734404e8a26ed224e8ccb81d77dfabc6-r4 - Debugging files
+RRECOMMENDS_alsa-intf-dbg: adiertac-dbg audcal-dbg system-core-liblog-dbg glibc-dbg acdbrtac-dbg acdbmapper-dbg libstdc++-dbg diag-dbg audioalsa-dbg time-genoff-dbg acdbloader-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg qmi-dbg
+SECTION_alsa-intf-dbg: devel
+PKG_alsa-intf-dbg: alsa-intf-dbg
+ALLOW_EMPTY_alsa-intf-dbg: 1
+FILES_alsa-intf-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/alsa-intf/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/alsa-intf/.debug /usr/lib/matchbox-panel/.debug /usr/lib/alsa-intf/alsa-intf/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libmp4ff.so.1.0.0": 18431, "/usr/lib/.debug/libalsa_intf.so.1.0.0": 153850, "/usr/bin/.debug/faad": 9663, "/usr/lib/.debug/liblytts.so.0.0.0": 36673, "/usr/bin/.debug/arec": 31317, "/usr/lib/.debug/libfaad2.so.1.0.0": 492597, "/usr/lib/.debug/libhci_curl.so": 42605, "/usr/bin/.debug/alsaucm_test": 21417, "/usr/bin/.debug/amix": 12538, "/usr/lib/.debug/libhci_tts_local_synth.so": 78660, "/usr/lib/.debug/libfdk-aac.so.1.0.0": 96972, "/usr/lib/.debug/libhci_sys.so": 89134, "/usr/lib/.debug/libamrnb.so.1.0.0": 297452, "/usr/bin/.debug/aplay": 33894, "/usr/bin/.debug/alsa_daemon": 382152, "/usr/lib/.debug/libhci_tts.so": 16921, "/usr/lib/.debug/libmad.so.1.0.0": 113076}
+PKGSIZE_alsa-intf-dbg: 1927352

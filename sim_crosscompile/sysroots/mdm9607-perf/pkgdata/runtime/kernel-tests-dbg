@@ -1,0 +1,15 @@
+PN: kernel-tests
+PV: git-b44bd80aaf774962e86caef16e2523bcfcfddc02
+PR: r18
+PKGV: git-b44bd80aaf774962e86caef16e2523bcfcfddc02
+PKGR: r18
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_kernel-tests-dbg: Qualcomm Technologies Proprietary kernel test  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_kernel-tests-dbg: kernel-tests version git-b44bd80aaf774962e86caef16e2523bcfcfddc02-r18 - Debugging files
+RRECOMMENDS_kernel-tests-dbg: qmi-framework-dbg glibc-dbg qmi-dbg
+SECTION_kernel-tests-dbg: devel
+PKG_kernel-tests-dbg: kernel-tests-dbg
+ALLOW_EMPTY_kernel-tests-dbg: 1
+FILES_kernel-tests-dbg: /usr/kernel-tests/*/.debug/* /usr/src/debug/*
+FILES_INFO: {"/usr/kernel-tests/qcedev/.debug/qcedev_test": 16617, "/usr/kernel-tests/vfp/.debug/vfptest": 5359, "/usr/kernel-tests/smd/.debug/smem_log_test": 6028, "/usr/kernel-tests/spi/.debug/spidevtest": 6795, "/usr/kernel-tests/pctest/.debug/pctest": 7374, "/usr/kernel-tests/msm_uart/.debug/msm_uart_test": 5847, "/usr/kernel-tests/smd/.debug/smd_modem_data38": 22526, "/usr/kernel-tests/i2c-msm/.debug/i2c-msm-test": 8515, "/usr/kernel-tests/mtd/.debug/geoinfo_flash": 4960, "/usr/kernel-tests/dmov/.debug/dmov": 5536, "/usr/kernel-tests/smd/.debug/smd_tty_loopback_test": 6582, "/usr/kernel-tests/smd/.debug/smd_pkt_loopback_test": 6539, "/usr/kernel-tests/cacheflush/.debug/cacheflush": 127189}
+PKGSIZE_kernel-tests-dbg: 229867

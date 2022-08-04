@@ -1,0 +1,14 @@
+PN: adiertac
+PV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PR: r3
+PKGV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: adie rtac Library and calibiration files
+SUMMARY: adiertac version git-ded3b72614dd8b6cbf1146035b0e4960f16948f6-r3
+RPROVIDES_adiertac-locale:  adiertac-locale
+SECTION: base
+PKG_adiertac-locale: libadiertac-locale
+FILES_adiertac-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_adiertac-locale: 0

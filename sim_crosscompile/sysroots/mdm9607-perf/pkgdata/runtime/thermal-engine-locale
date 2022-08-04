@@ -1,0 +1,13 @@
+PN: thermal-engine
+PV: git-96afe40a8c0be4b39cd749bcf8dc097ff19c5128
+PR: r9
+PKGV: git-96afe40a8c0be4b39cd749bcf8dc097ff19c5128
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Thermal Engine
+SUMMARY: thermal-engine version git-96afe40a8c0be4b39cd749bcf8dc097ff19c5128-r9
+SECTION: base
+PKG_thermal-engine-locale: thermal-engine-locale
+FILES_thermal-engine-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_thermal-engine-locale: 0

@@ -1,0 +1,13 @@
+PN: simcom-mbedtls
+PV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PR: r3
+PKGV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_simcom-mbedtls-doc: simcom-mbedtls  This package contains documentation.
+SUMMARY_simcom-mbedtls-doc: simcom-mbedtls version git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r3 - Documentation files
+SECTION_simcom-mbedtls-doc: doc
+PKG_simcom-mbedtls-doc: simcom-mbedtls-doc
+FILES_simcom-mbedtls-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_simcom-mbedtls-doc: 0

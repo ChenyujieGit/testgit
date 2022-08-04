@@ -1,0 +1,13 @@
+PN: qmi-shutdown-modem
+PV: git-adb9f7b712d4b755522a56f67faa632f15589410
+PR: r4
+PKGV: git-adb9f7b712d4b755522a56f67faa632f15589410
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMI shutdown modem Daemon
+SUMMARY: qmi-shutdown-modem version git-adb9f7b712d4b755522a56f67faa632f15589410-r4
+SECTION: base
+PKG_qmi-shutdown-modem-locale: qmi-shutdown-modem-locale
+FILES_qmi-shutdown-modem-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qmi-shutdown-modem-locale: 0

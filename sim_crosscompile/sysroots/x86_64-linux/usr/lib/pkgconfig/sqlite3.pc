@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr
+exec_prefix=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr
+libdir=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/lib
+includedir=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.8.7.4
+Libs: -L${libdir} -lsqlite3
+Libs.private: -ldl -lpthread 
+Cflags: -I${includedir}

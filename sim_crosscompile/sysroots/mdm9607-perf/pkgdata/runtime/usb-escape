@@ -1,0 +1,19 @@
+PN: usb-escape
+PV: git-a16519339972d2f73fdff4670ddebaa97df5918e
+PR: r3
+PKGV: git-a16519339972d2f73fdff4670ddebaa97df5918e
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Daemon to handle +++
+SUMMARY: usb-escape version git-a16519339972d2f73fdff4670ddebaa97df5918e-r3
+RDEPENDS_usb-escape: qmi (>= git-d633a6bef403b9a1f5b98885daf1b27910d50b4e) qmi-framework (>= git-6f65ad1c96085c93e865daf41eb6e685c26b8505) glibc (>= 2.21)
+SECTION: base
+PKG_usb-escape: usb-escape
+FILES_usb-escape: /usr/bin/* /usr/sbin/* /usr/lib/usb-escape/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/usb-escape /usr/lib/usb-escape/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_usb-escape: /usr/bin/usb@underscore@data@underscore@cmd@underscore@switch
+FILES_INFO: {"/etc/init.d/start_usb_switch": 684, "/usr/bin/usb_data_cmd_switch": 9904}
+FILERPROVIDES_/usr/bin/usb@underscore@data@underscore@cmd@underscore@switch_usb-escape: elf(buildid) (= ed391aff0b425d900face588eebf3d785df3dd3a)
+FILERDEPENDSFLIST_usb-escape: /etc/init.d/start@underscore@usb@underscore@switch /usr/bin/usb@underscore@data@underscore@cmd@underscore@switch
+FILERDEPENDS_/etc/init.d/start@underscore@usb@underscore@switch_usb-escape: /bin/sh
+FILERDEPENDS_/usr/bin/usb@underscore@data@underscore@cmd@underscore@switch_usb-escape: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmiservices.so.1 rtld(GNU_HASH)
+PKGSIZE_usb-escape: 10588

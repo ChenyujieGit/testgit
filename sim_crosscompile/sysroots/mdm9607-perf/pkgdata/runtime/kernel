@@ -1,0 +1,14 @@
+PN: linux-quic
+PV: git-caeed972447954985b4b667381e4fedcb85d55ba
+PR: r3
+PKGV: git-caeed972447954985b4b667381e4fedcb85d55ba
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION: QuIC Linux Kernel
+SUMMARY: linux-quic version git-caeed972447954985b4b667381e4fedcb85d55ba-r3
+RDEPENDS_kernel: kernel-base
+SECTION: base
+PKG_kernel: kernel
+ALLOW_EMPTY_kernel: 1
+FILES_INFO: {}
+PKGSIZE_kernel: 0

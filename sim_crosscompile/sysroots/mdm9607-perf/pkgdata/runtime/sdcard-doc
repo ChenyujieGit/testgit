@@ -1,0 +1,13 @@
+PN: sdcard
+PV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PR: r3
+PKGV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_sdcard-doc: sdcard  This package contains documentation.
+SUMMARY_sdcard-doc: sdcard version git-ffa7099523604889ab9085c68d6dbe4676230288-r3 - Documentation files
+SECTION_sdcard-doc: doc
+PKG_sdcard-doc: sdcard-doc
+FILES_sdcard-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_sdcard-doc: 0

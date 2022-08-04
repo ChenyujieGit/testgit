@@ -1,0 +1,13 @@
+PN: qcacld-utils
+PV: git-27c8b7c4911044ddb14a1804625e093957e1137f
+PR: r0
+PKGV: git-27c8b7c4911044ddb14a1804625e093957e1137f
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Atheros WLAN CLD utils
+SUMMARY: qcacld-utils version git-27c8b7c4911044ddb14a1804625e093957e1137f-r0
+SECTION: base
+PKG_qcacld-utils-locale: qcacld-utils-locale
+FILES_qcacld-utils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qcacld-utils-locale: 0

@@ -1,0 +1,15 @@
+PN: ftp-simcom
+PV: git-cf7207ad41d8fae168b25cc5409e0979c765ea96
+PR: r3
+PKGV: git-cf7207ad41d8fae168b25cc5409e0979c765ea96
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ftp-simcom-dbg: ftp  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ftp-simcom-dbg: ftp-simcom version git-cf7207ad41d8fae168b25cc5409e0979c765ea96-r3 - Debugging files
+RRECOMMENDS_ftp-simcom-dbg: qmi-framework-dbg glibc-dbg qmi-dbg
+SECTION_ftp-simcom-dbg: devel
+PKG_ftp-simcom-dbg: ftp-simcom-dbg
+ALLOW_EMPTY_ftp-simcom-dbg: 1
+FILES_ftp-simcom-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ftp-simcom/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ftp-simcom/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ftp-simcom/ftp-simcom/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/ftp_simcom": 10880}
+PKGSIZE_ftp-simcom-dbg: 10880

@@ -1,0 +1,15 @@
+PN: simcom-ssl
+PV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PR: r1
+PKGV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_simcom-ssl-dbg: simcom-ssl  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_simcom-ssl-dbg: simcom-ssl version git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r1 - Debugging files
+RRECOMMENDS_simcom-ssl-dbg: glibc-dbg
+SECTION_simcom-ssl-dbg: devel
+PKG_simcom-ssl-dbg: simcom-ssl-dbg
+ALLOW_EMPTY_simcom-ssl-dbg: 1
+FILES_simcom-ssl-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/simcom-ssl/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/simcom-ssl/.debug /usr/lib/matchbox-panel/.debug /usr/lib/simcom-ssl/simcom-ssl/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/simcom_ssl": 111879}
+PKGSIZE_simcom-ssl-dbg: 111879

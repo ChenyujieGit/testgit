@@ -1,0 +1,16 @@
+PN: qcacld-utils
+PV: git-27c8b7c4911044ddb14a1804625e093957e1137f
+PR: r0
+PKGV: git-27c8b7c4911044ddb14a1804625e093957e1137f
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qcacld-utils-dev: Qualcomm Atheros WLAN CLD utils  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qcacld-utils-dev: qcacld-utils version git-27c8b7c4911044ddb14a1804625e093957e1137f-r0 - Development files
+RDEPENDS_qcacld-utils-dev: qcacld-utils (= git-27c8b7c4911044ddb14a1804625e093957e1137f-r0)
+RRECOMMENDS_qcacld-utils-dev: glib-2.0-dev glibc-dev diag-dev
+SECTION_qcacld-utils-dev: devel
+PKG_qcacld-utils-dev: qcacld-utils-dev
+ALLOW_EMPTY_qcacld-utils-dev: 1
+FILES_qcacld-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qcacld-utils/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_qcacld-utils-dev: 0

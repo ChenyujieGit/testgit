@@ -1,0 +1,13 @@
+PN: mifi-server
+PV: git-89e4827867d70ab02b1fc3979c9b752a99147847
+PR: r3
+PKGV: git-89e4827867d70ab02b1fc3979c9b752a99147847
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mifi-server-doc: mifi server  This package contains documentation.
+SUMMARY_mifi-server-doc: mifi-server version git-89e4827867d70ab02b1fc3979c9b752a99147847-r3 - Documentation files
+SECTION_mifi-server-doc: doc
+PKG_mifi-server-doc: mifi-server-doc
+FILES_mifi-server-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_mifi-server-doc: 0

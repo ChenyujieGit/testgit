@@ -1,0 +1,22 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+SUMMARY_ppp-radius: Plugin for PPP for RADIUS support
+RDEPENDS_ppp-radius: glibc (>= 2.21)
+SECTION: console/network
+PKG_ppp-radius: ppp-radius
+FILES_ppp-radius: /usr/lib/pppd/2.4.7/radius.so /usr/lib/pppd/2.4.7/radattr.so /usr/lib/pppd/2.4.7/radrealms.so
+FILERPROVIDESFLIST_ppp-radius: /usr/lib/pppd/2.4.7/radius.so /usr/lib/pppd/2.4.7/radrealms.so /usr/lib/pppd/2.4.7/radattr.so
+FILES_INFO: {"/usr/lib/pppd/2.4.7/radius.so": 48376, "/usr/lib/pppd/2.4.7/radrealms.so": 13980, "/usr/lib/pppd/2.4.7/radattr.so": 5704}
+FILERPROVIDES_/usr/lib/pppd/2.4.7/radius.so_ppp-radius: elf(buildid) (= 06275753826d905d4afae2a6b5f222cd9fab500e) radius.so
+FILERPROVIDES_/usr/lib/pppd/2.4.7/radrealms.so_ppp-radius: elf(buildid) (= fbfc8f8635f93dfb002247e100e69c3c8e7ee4cd) radrealms.so
+FILERPROVIDES_/usr/lib/pppd/2.4.7/radattr.so_ppp-radius: elf(buildid) (= 14a2a4d730eb5a427d12812eaa861b3c695b9ec4) radattr.so
+FILERDEPENDSFLIST_ppp-radius: /usr/lib/pppd/2.4.7/radius.so /usr/lib/pppd/2.4.7/radrealms.so /usr/lib/pppd/2.4.7/radattr.so
+FILERDEPENDS_/usr/lib/pppd/2.4.7/radius.so_ppp-radius: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/pppd/2.4.7/radrealms.so_ppp-radius: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/pppd/2.4.7/radattr.so_ppp-radius: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ppp-radius: 68060

@@ -1,0 +1,13 @@
+PN: ftp-simcom
+PV: git-cf7207ad41d8fae168b25cc5409e0979c765ea96
+PR: r3
+PKGV: git-cf7207ad41d8fae168b25cc5409e0979c765ea96
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: ftp
+SUMMARY: ftp-simcom version git-cf7207ad41d8fae168b25cc5409e0979c765ea96-r3
+SECTION: base
+PKG_ftp-simcom-locale: ftp-simcom-locale
+FILES_ftp-simcom-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ftp-simcom-locale: 0

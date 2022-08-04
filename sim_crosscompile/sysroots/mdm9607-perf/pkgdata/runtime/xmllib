@@ -1,0 +1,19 @@
+PN: xmllib
+PV: git-f309302103e55fedb509ba0c806274e24c9bcb1b
+PR: r9
+PKGV: git-f309302103e55fedb509ba0c806274e24c9bcb1b
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm XML Library
+SUMMARY: xmllib version git-f309302103e55fedb509ba0c806274e24c9bcb1b-r9
+RDEPENDS_xmllib: diag (>= git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c) time-genoff (>= git-f77a782ed4676dfdcc741d30cb954229c6e7feb2) glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RPROVIDES_xmllib:  xmllib
+SECTION: base
+PKG_xmllib: libxml0
+FILES_xmllib: /usr/bin/* /usr/sbin/* /usr/lib/xmllib/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/xmllib /usr/lib/xmllib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_xmllib: /usr/lib/libxml.so.0.0.0
+FILES_INFO: {"/usr/lib/libxml.so.0": 38604}
+FILERPROVIDES_/usr/lib/libxml.so.0.0.0_xmllib: elf(buildid) (= c2d433f843160049c4da49b20833cafc5ac00351) libxml.so.0
+FILERDEPENDSFLIST_xmllib: /usr/lib/libxml.so.0.0.0
+FILERDEPENDS_/usr/lib/libxml.so.0.0.0_xmllib: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_xmllib: 38604

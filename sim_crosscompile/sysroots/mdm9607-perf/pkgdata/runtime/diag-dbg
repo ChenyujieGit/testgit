@@ -1,0 +1,15 @@
+PN: diag
+PV: git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c
+PR: r9
+PKGV: git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_diag-dbg: Library and routing applications for diagnostic traffic  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_diag-dbg: diag version git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c-r9 - Debugging files
+RRECOMMENDS_diag-dbg: time-genoff-dbg glib-2.0-dbg glibc-dbg
+SECTION_diag-dbg: devel
+PKG_diag-dbg: diag-dbg
+ALLOW_EMPTY_diag-dbg: 1
+FILES_diag-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/diag/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/diag/.debug /usr/lib/matchbox-panel/.debug /usr/lib/diag/diag/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/diag_klog": 5723, "/usr/bin/.debug/test_diag": 9809, "/usr/bin/.debug/diag_mdlog": 7470, "/usr/bin/.debug/diag_socket_log": 7258, "/usr/bin/.debug/diag_callback_sample": 5470, "/usr/bin/.debug/diag_uart_log": 6740, "/usr/lib/.debug/libdiag.so.1.0.0": 33898, "/usr/bin/.debug/PktRspTest": 5581, "/usr/bin/.debug/diag_dci_sample": 6254}
+PKGSIZE_diag-dbg: 88203

@@ -1,0 +1,24 @@
+PN: mtd-utils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: mtd-utils version 1.0-r1
+RDEPENDS_mtd-utils-jffs2: glibc (>= 2.21) zlib (>= 1.2.8) lzo (>= 2.09)
+SECTION: base
+PKG_mtd-utils-jffs2: mtd-utils-jffs2
+FILES_mtd-utils-jffs2: /usr/sbin/mkfs.jffs2 /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/sumtool
+FILERPROVIDESFLIST_mtd-utils-jffs2: /usr/sbin/mkfs.jffs2 /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/sumtool
+FILES_INFO: {"/usr/sbin/jffs2dump": 18152, "/usr/sbin/sumtool": 22416, "/usr/sbin/jffs2reader": 13996, "/usr/sbin/mkfs.jffs2": 43292}
+FILERPROVIDES_/usr/sbin/mkfs.jffs2_mtd-utils-jffs2: elf(buildid) (= 549a6fcd5f6036519e4ac635b79f1aabbcafbfa0)
+FILERPROVIDES_/usr/sbin/jffs2dump_mtd-utils-jffs2: elf(buildid) (= 801833fb956651fbe489ac1ed41360096dfe9244)
+FILERPROVIDES_/usr/sbin/jffs2reader_mtd-utils-jffs2: elf(buildid) (= c954f3821b48e4f5c8d84d2d5722c594e2d1185d)
+FILERPROVIDES_/usr/sbin/sumtool_mtd-utils-jffs2: elf(buildid) (= 049a2f38b027a34184a944ebb87f83846bebaff5)
+FILERDEPENDSFLIST_mtd-utils-jffs2: /usr/sbin/mkfs.jffs2 /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/sumtool
+FILERDEPENDS_/usr/sbin/mkfs.jffs2_mtd-utils-jffs2: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) liblzo2.so.2 libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/jffs2dump_mtd-utils-jffs2: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/jffs2reader_mtd-utils-jffs2: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/sumtool_mtd-utils-jffs2: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_mtd-utils-jffs2: 97856

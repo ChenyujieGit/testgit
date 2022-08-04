@@ -1,0 +1,13 @@
+PN: sdcard
+PV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PR: r3
+PKGV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: sdcard
+SUMMARY: sdcard version git-ffa7099523604889ab9085c68d6dbe4676230288-r3
+SECTION: base
+PKG_sdcard-locale: sdcard-locale
+FILES_sdcard-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_sdcard-locale: 0

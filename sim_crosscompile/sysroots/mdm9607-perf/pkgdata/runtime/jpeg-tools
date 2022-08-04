@@ -1,0 +1,28 @@
+PN: libjpeg-turbo
+PV: 1.2.1
+PR: r2
+PKGV: 1.2.1
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION_jpeg-tools: The jpeg-tools package includes the client programs for access libjpeg functionality. These tools allow for the compression, decompression, transformation and display of JPEG files.
+SUMMARY: Accelerates basline JPEG compression and decompression.
+RDEPENDS_jpeg-tools: libjpeg-turbo (>= 1.2.1) glibc (>= 2.21) libturbojpeg (>= 1.2.1)
+SECTION: base
+PKG_jpeg-tools: jpeg-tools
+FILES_jpeg-tools: /usr/bin/*
+FILERPROVIDESFLIST_jpeg-tools: /usr/bin/djpeg /usr/bin/cjpeg /usr/bin/rdjpgcom /usr/bin/jpegtran /usr/bin/tjbench /usr/bin/wrjpgcom
+FILES_INFO: {"/usr/bin/djpeg": 26336, "/usr/bin/cjpeg": 26336, "/usr/bin/rdjpgcom": 9896, "/usr/bin/jpegtran": 26280, "/usr/bin/tjbench": 42972, "/usr/bin/wrjpgcom": 9896}
+FILERPROVIDES_/usr/bin/djpeg_jpeg-tools: elf(buildid) (= 9ce86862ccd7f7208321b5e9cea7ff07edbe0411)
+FILERPROVIDES_/usr/bin/cjpeg_jpeg-tools: elf(buildid) (= 7da9182f90eb6c7b89a42a04dba3e7b9a48ae6fb)
+FILERPROVIDES_/usr/bin/rdjpgcom_jpeg-tools: elf(buildid) (= a23b70f3d918d87a659ac98b2aa3f31f2c66c03e)
+FILERPROVIDES_/usr/bin/jpegtran_jpeg-tools: elf(buildid) (= bcdbf34e4f40a2a94779aeb95f3dc550aa701f57)
+FILERPROVIDES_/usr/bin/tjbench_jpeg-tools: elf(buildid) (= bfa51dff1a1d761e616d427d9822f7d8ceec29ae)
+FILERPROVIDES_/usr/bin/wrjpgcom_jpeg-tools: elf(buildid) (= 2be659efec178a25371e19c1c7a5976a8f1fb39f)
+FILERDEPENDSFLIST_jpeg-tools: /usr/bin/djpeg /usr/bin/cjpeg /usr/bin/rdjpgcom /usr/bin/jpegtran /usr/bin/tjbench /usr/bin/wrjpgcom
+FILERDEPENDS_/usr/bin/djpeg_jpeg-tools: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libjpeg.so.8 libjpeg.so.8(LIBJPEG_8.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/cjpeg_jpeg-tools: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libjpeg.so.8 libjpeg.so.8(LIBJPEG_8.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/rdjpgcom_jpeg-tools: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/jpegtran_jpeg-tools: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libjpeg.so.8 libjpeg.so.8(LIBJPEG_8.0) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/tjbench_jpeg-tools: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libjpeg.so.8 libjpeg.so.8(LIBJPEG_8.0) libm.so.6 libm.so.6(GLIBC_2.4) libturbojpeg.so libturbojpeg.so(TURBOJPEG_1.0) libturbojpeg.so(TURBOJPEG_1.1) libturbojpeg.so(TURBOJPEG_1.2) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/wrjpgcom_jpeg-tools: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_jpeg-tools: 141716

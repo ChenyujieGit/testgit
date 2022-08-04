@@ -1,0 +1,13 @@
+PN: simcom-ssl
+PV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PR: r1
+PKGV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_simcom-ssl-doc: simcom-ssl  This package contains documentation.
+SUMMARY_simcom-ssl-doc: simcom-ssl version git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r1 - Documentation files
+SECTION_simcom-ssl-doc: doc
+PKG_simcom-ssl-doc: simcom-ssl-doc
+FILES_simcom-ssl-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_simcom-ssl-doc: 0

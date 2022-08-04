@@ -1,0 +1,13 @@
+PN: diag
+PV: git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c
+PR: r9
+PKGV: git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Library and routing applications for diagnostic traffic
+SUMMARY: diag version git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c-r9
+SECTION: base
+PKG_diag-locale: diag-locale
+FILES_diag-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_diag-locale: 0

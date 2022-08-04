@@ -1,0 +1,14 @@
+PN: acdbloader
+PV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PR: r7
+PKGV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb loader Library
+SUMMARY: acdbloader version git-ded3b72614dd8b6cbf1146035b0e4960f16948f6-r7
+RPROVIDES_acdbloader-locale:  acdbloader-locale
+SECTION: base
+PKG_acdbloader-locale: libacdbloader-locale
+FILES_acdbloader-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_acdbloader-locale: 0

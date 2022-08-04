@@ -1,0 +1,16 @@
+PN: sdcard
+PV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PR: r3
+PKGV: git-ffa7099523604889ab9085c68d6dbe4676230288
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_sdcard-dev: sdcard  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_sdcard-dev: sdcard version git-ffa7099523604889ab9085c68d6dbe4676230288-r3 - Development files
+RDEPENDS_sdcard-dev: sdcard (= git-ffa7099523604889ab9085c68d6dbe4676230288-r3)
+RRECOMMENDS_sdcard-dev: glib-2.0-dev glibc-dev qmi-dev qmi-framework-dev
+SECTION_sdcard-dev: devel
+PKG_sdcard-dev: sdcard-dev
+ALLOW_EMPTY_sdcard-dev: 1
+FILES_sdcard-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sdcard/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_sdcard-dev: 0

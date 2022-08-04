@@ -1,0 +1,14 @@
+PN: linux-quic
+PV: git-caeed972447954985b4b667381e4fedcb85d55ba
+PR: r3
+PKGV: git-caeed972447954985b4b667381e4fedcb85d55ba
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION: QuIC Linux Kernel
+SUMMARY: linux-quic version git-caeed972447954985b4b667381e4fedcb85d55ba-r3
+RRECOMMENDS_kernel-dev: kernel-base-dev kernel-module-mmc-test-dev kernel-module-qca8337-dev kernel-module-ansi-cprng-dev kernel-module-gpio-axis-dev kernel-module-spidev-dev kernel-module-qcom-emac-dev kernel-module-mmc-block-test-dev kernel-3.18.20-dev kernel-module-gpio-input-dev kernel-module-xt-physdev-dev kernel-module-at803x-dev kernel-module-test-iosched-dev kernel-module-gpio-output-dev kernel-module-gpio-matrix-dev kernel-module-gpio-event-dev
+SECTION: base
+PKG_kernel-dev: kernel-dev
+FILES_kernel-dev: /boot/System.map* /boot/Module.symvers* /boot/config* /usr/src/kernel /lib/modules/3.18.20/build /boot/zImage-3.18.20
+FILES_INFO: {"/boot/Module.symvers-3.18.20": 397984, "/boot/zImage-3.18.20": 5185192, "/boot/System.map-3.18.20": 2385444, "/boot/config-3.18.20": 93602}
+PKGSIZE_kernel-dev: 8062222

@@ -1,0 +1,19 @@
+PN: configdb
+PV: git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
+PR: r5
+PKGV: git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Data Configdb Module
+SUMMARY: configdb version git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa-r5
+RDEPENDS_configdb: diag (>= git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c) time-genoff (>= git-f77a782ed4676dfdcc741d30cb954229c6e7feb2) glib-2.0 (>= 2.42.1) dsutils (>= git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa) xmllib (>= git-f309302103e55fedb509ba0c806274e24c9bcb1b) glibc (>= 2.21)
+RPROVIDES_configdb:  configdb
+SECTION: base
+PKG_configdb: libconfigdb0
+FILES_configdb: /usr/bin/* /usr/sbin/* /usr/lib/configdb/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/configdb /usr/lib/configdb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_configdb: /usr/lib/libconfigdb.so.0.0.0
+FILES_INFO: {"/usr/lib/libconfigdb.so.0": 18056}
+FILERPROVIDES_/usr/lib/libconfigdb.so.0.0.0_configdb: elf(buildid) (= da77a2ba652d85a06f373112d7db7cfe15bf90db) libconfigdb.so.0
+FILERDEPENDSFLIST_configdb: /usr/lib/libconfigdb.so.0.0.0
+FILERDEPENDS_/usr/lib/libconfigdb.so.0.0.0_configdb: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_configdb: 18056

@@ -1,0 +1,15 @@
+PN: qcacld-utils
+PV: git-27c8b7c4911044ddb14a1804625e093957e1137f
+PR: r0
+PKGV: git-27c8b7c4911044ddb14a1804625e093957e1137f
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qcacld-utils-dbg: Qualcomm Atheros WLAN CLD utils  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qcacld-utils-dbg: qcacld-utils version git-27c8b7c4911044ddb14a1804625e093957e1137f-r0 - Debugging files
+RRECOMMENDS_qcacld-utils-dbg: glib-2.0-dbg diag-dbg glibc-dbg
+SECTION_qcacld-utils-dbg: devel
+PKG_qcacld-utils-dbg: qcacld-utils-dbg
+ALLOW_EMPTY_qcacld-utils-dbg: 1
+FILES_qcacld-utils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qcacld-utils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qcacld-utils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qcacld-utils/qcacld-utils/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/athdiag": 6890, "/usr/bin/.debug/pktlogconf": 5508, "/usr/bin/.debug/cnss_diag": 24074}
+PKGSIZE_qcacld-utils-dbg: 36472

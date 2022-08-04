@@ -1,0 +1,13 @@
+PN: ath6kl-utils
+PV: git-27c8b7c4911044ddb14a1804625e093957e1137f
+PR: r2
+PKGV: git-27c8b7c4911044ddb14a1804625e093957e1137f
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Atheros ath6kl utils.
+SUMMARY: ath6kl-utils version git-27c8b7c4911044ddb14a1804625e093957e1137f-r2
+SECTION: base
+PKG_ath6kl-utils-locale: ath6kl-utils-locale
+FILES_ath6kl-utils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ath6kl-utils-locale: 0
