@@ -27,7 +27,11 @@ int main(int argc,char *argv[])
                    
             }
         }
+    }else
+    {
+    	printf("Please input arguments\n");
     }
+
 
 return 0;
 }
