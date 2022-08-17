@@ -1,0 +1,15 @@
+PN: helloworld
+PV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PR: r1
+PKGV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_helloworld-dbg: helloworld  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_helloworld-dbg: helloworld version git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r1 - Debugging files
+RRECOMMENDS_helloworld-dbg: glibc-dbg
+SECTION_helloworld-dbg: devel
+PKG_helloworld-dbg: helloworld-dbg
+ALLOW_EMPTY_helloworld-dbg: 1
+FILES_helloworld-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/helloworld/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/helloworld/.debug /usr/lib/matchbox-panel/.debug /usr/lib/helloworld/helloworld/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/helloworld": 5075}
+PKGSIZE_helloworld-dbg: 5075

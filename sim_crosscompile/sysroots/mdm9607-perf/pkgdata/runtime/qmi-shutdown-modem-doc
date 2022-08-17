@@ -1,0 +1,13 @@
+PN: qmi-shutdown-modem
+PV: git-adb9f7b712d4b755522a56f67faa632f15589410
+PR: r4
+PKGV: git-adb9f7b712d4b755522a56f67faa632f15589410
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-shutdown-modem-doc: QMI shutdown modem Daemon  This package contains documentation.
+SUMMARY_qmi-shutdown-modem-doc: qmi-shutdown-modem version git-adb9f7b712d4b755522a56f67faa632f15589410-r4 - Documentation files
+SECTION_qmi-shutdown-modem-doc: doc
+PKG_qmi-shutdown-modem-doc: qmi-shutdown-modem-doc
+FILES_qmi-shutdown-modem-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_qmi-shutdown-modem-doc: 0

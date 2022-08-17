@@ -1,0 +1,5 @@
+libqmi_cci.so.1:/usr/lib:git-6f65ad1c96085c93e865daf41eb6e685c26b8505
+libqmi_sap.so.1:/usr/lib:git-6f65ad1c96085c93e865daf41eb6e685c26b8505
+libqmi_common_so.so.1:/usr/lib:git-6f65ad1c96085c93e865daf41eb6e685c26b8505
+libqmi_encdec.so.1:/usr/lib:git-6f65ad1c96085c93e865daf41eb6e685c26b8505
+libqmi_csi.so.1:/usr/lib:git-6f65ad1c96085c93e865daf41eb6e685c26b8505

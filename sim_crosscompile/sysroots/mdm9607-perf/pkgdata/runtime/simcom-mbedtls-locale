@@ -1,0 +1,13 @@
+PN: simcom-mbedtls
+PV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PR: r3
+PKGV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: simcom-mbedtls
+SUMMARY: simcom-mbedtls version git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r3
+SECTION: base
+PKG_simcom-mbedtls-locale: simcom-mbedtls-locale
+FILES_simcom-mbedtls-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_simcom-mbedtls-locale: 0

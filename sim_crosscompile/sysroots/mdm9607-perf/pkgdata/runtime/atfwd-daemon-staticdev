@@ -1,0 +1,14 @@
+PN: atfwd-daemon
+PV: git-bda2b7bd245101d25dfc00320ef7b639b4deefe7
+PR: r3
+PKGV: git-bda2b7bd245101d25dfc00320ef7b639b4deefe7
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_atfwd-daemon-staticdev: Daemon to handle AT commands  This package contains static libraries for software development.
+SUMMARY_atfwd-daemon-staticdev: atfwd-daemon version git-bda2b7bd245101d25dfc00320ef7b639b4deefe7-r3 - Development files (Static Libraries)
+RDEPENDS_atfwd-daemon-staticdev: atfwd-daemon-dev (= git-bda2b7bd245101d25dfc00320ef7b639b4deefe7-r3)
+SECTION_atfwd-daemon-staticdev: devel
+PKG_atfwd-daemon-staticdev: atfwd-daemon-staticdev
+FILES_atfwd-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/atfwd-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_atfwd-daemon-staticdev: 0

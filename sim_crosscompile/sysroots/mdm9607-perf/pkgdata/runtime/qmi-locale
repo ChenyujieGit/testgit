@@ -1,0 +1,13 @@
+PN: qmi
+PV: git-d633a6bef403b9a1f5b98885daf1b27910d50b4e
+PR: r13
+PKGV: git-d633a6bef403b9a1f5b98885daf1b27910d50b4e
+PKGR: r13
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm MSM Interface (QMI) Library
+SUMMARY: qmi version git-d633a6bef403b9a1f5b98885daf1b27910d50b4e-r13
+SECTION: base
+PKG_qmi-locale: qmi-locale
+FILES_qmi-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qmi-locale: 0

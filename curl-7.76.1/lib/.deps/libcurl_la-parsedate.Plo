@@ -1,0 +1,259 @@
+libcurl_la-parsedate.lo: parsedate.c \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/stdc-predef.h \
+ curl_setup.h curl_config.h ../include/curl/curl.h \
+ ../include/curl/curlver.h ../include/curl/system.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/types.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/features.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/cdefs.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/wordsize.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/gnu/stubs.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/gnu/stubs-soft.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/types.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/typesizes.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/time.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stddef.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/endian.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/endian.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/byteswap.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/byteswap-16.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/select.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/select.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/sigset.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/time.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/sysmacros.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/pthreadtypes.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/socket.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/uio.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/uio.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/socket.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/socket_type.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/sockaddr.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm/socket.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm-generic/socket.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm/sockios.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm-generic/sockios.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/stdio.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/libio.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/_G_config.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/wchar.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stdarg.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stdio_lim.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/sys_errlist.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stdio.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include-fixed/limits.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include-fixed/syslimits.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/limits.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/posix1_lim.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/local_lim.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/linux/limits.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/posix2_lim.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/xlocale.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/time.h \
+ ../include/curl/easy.h ../include/curl/multi.h ../include/curl/curl.h \
+ ../include/curl/urlapi.h ../include/curl/options.h \
+ ../include/curl/typecheck-gcc.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/assert.h \
+ curl_setup_once.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/stdlib.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/waitflags.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/waitstatus.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/alloca.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stdlib-bsearch.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stdlib-float.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/string.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/string.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/string2.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/ctype.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/errno.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/errno.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/linux/errno.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm/errno.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm-generic/errno.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm-generic/errno-base.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/stat.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stat.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stdbool.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/unistd.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/posix_opt.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/environments.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/confname.h \
+ /home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/getopt.h \
+ curl_ctype.h strcase.h warnless.h parsedate.h
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/stdc-predef.h:
+
+curl_setup.h:
+
+curl_config.h:
+
+../include/curl/curl.h:
+
+../include/curl/curlver.h:
+
+../include/curl/system.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/types.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/features.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/cdefs.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/wordsize.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/gnu/stubs.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/gnu/stubs-soft.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/types.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/typesizes.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/time.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stddef.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/endian.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/endian.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/byteswap.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/byteswap-16.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/select.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/select.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/sigset.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/time.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/sysmacros.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/pthreadtypes.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/socket.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/uio.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/uio.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/socket.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/socket_type.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/sockaddr.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm/socket.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm-generic/socket.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm/sockios.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm-generic/sockios.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/stdio.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/libio.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/_G_config.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/wchar.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stdarg.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stdio_lim.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/sys_errlist.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stdio.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include-fixed/limits.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include-fixed/syslimits.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/limits.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/posix1_lim.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/local_lim.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/linux/limits.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/posix2_lim.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/xlocale.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/time.h:
+
+../include/curl/easy.h:
+
+../include/curl/multi.h:
+
+../include/curl/curl.h:
+
+../include/curl/urlapi.h:
+
+../include/curl/options.h:
+
+../include/curl/typecheck-gcc.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/assert.h:
+
+curl_setup_once.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/stdlib.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/waitflags.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/waitstatus.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/alloca.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stdlib-bsearch.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stdlib-float.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/string.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/string.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/string2.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/ctype.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/errno.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/errno.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/linux/errno.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm/errno.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm-generic/errno.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/asm-generic/errno-base.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/sys/stat.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/stat.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/lib/arm-oe-linux-gnueabi/gcc/arm-oe-linux-gnueabi/4.9.2/include/stdbool.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/unistd.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/posix_opt.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/environments.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/bits/confname.h:
+
+/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf/usr/include/getopt.h:
+
+curl_ctype.h:
+
+strcase.h:
+
+warnless.h:
+
+parsedate.h:

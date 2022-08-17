@@ -1,0 +1,14 @@
+PN: tftp-server
+PV: git-f22eb59610d2995106e1cc675c76f05cb08619bf
+PR: r1
+PKGV: git-f22eb59610d2995106e1cc675c76f05cb08619bf
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_tftp-server-staticdev: tftp_server server module  This package contains static libraries for software development.
+SUMMARY_tftp-server-staticdev: tftp-server version git-f22eb59610d2995106e1cc675c76f05cb08619bf-r1 - Development files (Static Libraries)
+RDEPENDS_tftp-server-staticdev: tftp-server-dev (= git-f22eb59610d2995106e1cc675c76f05cb08619bf-r1)
+SECTION_tftp-server-staticdev: devel
+PKG_tftp-server-staticdev: tftp-server-staticdev
+FILES_tftp-server-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/tftp-server/*.a
+FILES_INFO: {}
+PKGSIZE_tftp-server-staticdev: 0

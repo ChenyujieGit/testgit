@@ -1,0 +1,15 @@
+PN: acdbloader
+PV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PR: r7
+PKGV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbloader-staticdev: acdb loader Library  This package contains static libraries for software development.
+SUMMARY_acdbloader-staticdev: acdbloader version git-ded3b72614dd8b6cbf1146035b0e4960f16948f6-r7 - Development files (Static Libraries)
+RDEPENDS_acdbloader-staticdev: acdbloader-dev (= git-ded3b72614dd8b6cbf1146035b0e4960f16948f6-r7)
+RPROVIDES_acdbloader-staticdev:  acdbloader-staticdev
+SECTION_acdbloader-staticdev: devel
+PKG_acdbloader-staticdev: libacdbloader-staticdev
+FILES_acdbloader-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/acdbloader/*.a
+FILES_INFO: {}
+PKGSIZE_acdbloader-staticdev: 0

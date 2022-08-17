@@ -1,0 +1,13 @@
+PN: mcmlocserver
+PV: git-71de177e8b947470278d6a4465d9edf515d0a51b
+PR: r5
+PKGV: git-71de177e8b947470278d6a4465d9edf515d0a51b
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: MCM Location Server
+SUMMARY: mcmlocserver version git-71de177e8b947470278d6a4465d9edf515d0a51b-r5
+SECTION: base
+PKG_mcmlocserver-locale: mcmlocserver-locale
+FILES_mcmlocserver-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_mcmlocserver-locale: 0

@@ -1,0 +1,13 @@
+PN: diag-reboot-app
+PV: git-779efc959ce1c369960d2eaef6a7894682efbee6
+PR: r5
+PKGV: git-779efc959ce1c369960d2eaef6a7894682efbee6
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Reboot Diag
+SUMMARY: diag-reboot-app version git-779efc959ce1c369960d2eaef6a7894682efbee6-r5
+SECTION: base
+PKG_diag-reboot-app-locale: diag-reboot-app-locale
+FILES_diag-reboot-app-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_diag-reboot-app-locale: 0

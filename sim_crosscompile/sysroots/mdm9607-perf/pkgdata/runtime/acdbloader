@@ -1,0 +1,19 @@
+PN: acdbloader
+PV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PR: r7
+PKGV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb loader Library
+SUMMARY: acdbloader version git-ded3b72614dd8b6cbf1146035b0e4960f16948f6-r7
+RDEPENDS_acdbloader: audioalsa (>= git) adiertac (>= git-ded3b72614dd8b6cbf1146035b0e4960f16948f6) diag (>= git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c) glibc (>= 2.21) glib-2.0 (>= 2.42.1) acdbmapper (>= git-ded3b72614dd8b6cbf1146035b0e4960f16948f6) acdbrtac (>= git-ded3b72614dd8b6cbf1146035b0e4960f16948f6) system-core-liblog (>= git) audcal (>= git-ded3b72614dd8b6cbf1146035b0e4960f16948f6) time-genoff (>= git-f77a782ed4676dfdcc741d30cb954229c6e7feb2)
+RPROVIDES_acdbloader:  acdbloader
+SECTION: base
+PKG_acdbloader: libacdbloader1
+FILES_acdbloader: /usr/bin/* /usr/sbin/* /usr/lib/acdbloader/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/acdbloader /usr/lib/acdbloader/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_acdbloader: /usr/lib/libacdbloader.so.1.0.0
+FILES_INFO: {"/usr/lib/libacdbloader.so.1": 101960, "/etc/firmware/wcd9310/wcd9310_mbhc.bin": 25, "/etc/firmware/wcd9310/wcd9310_anc.bin": 32}
+FILERPROVIDES_/usr/lib/libacdbloader.so.1.0.0_acdbloader: elf(buildid) (= 15e4d6fcc3ad3676105c5c2ef0009975ef3db253) libacdbloader.so.1
+FILERDEPENDSFLIST_acdbloader: /usr/lib/libacdbloader.so.1.0.0
+FILERDEPENDS_/usr/lib/libacdbloader.so.1.0.0_acdbloader: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libacdbmapper.so.1 libacdbrtac.so.1 libadiertac.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_acdbloader: 102017

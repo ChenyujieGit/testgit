@@ -1,6 +1,14 @@
 #!/bin/bash
 kernel="/mnt/hgfs/1linux/linux"
-func1(){
+DIR=$(pwd)
+CURL_DIR=$DIR/curl-7.76.1
+CURL_INS=$CURL_DIR/output
+SSL_DIR=$DIR/openssl-1.1.1c
+SSL_INS=$SSL_DIR/output
+SSL_INC=$SSL_INS/include
+SSL_LIB=$SSL_INS/lib
+
+func_help(){
 echo "##################################"
 echo "# -a find clk* file command      #"
 echo "# -b find clk string .cfile      #"
@@ -8,7 +16,8 @@ echo "# -c   set git command           #"
 echo "#   exit shell is Ctrl + d       #"
 echo "##################################"
 }
-func2(){
+
+func_handle(){
 case $1 in
 -a)
 echo;echo;
@@ -29,25 +38,69 @@ read branch filename commit
 git checkout "$branch"
 git add "$filename"
 git commit -m "$commit"
-git status
+git status;;
+-curl)
+echo;echo
+echo "#############compling curl#########"
+fun_ssl
+fun_curl;;
 esac
 }
 
+fun_ssl(){
+cd $SSL_DIR
+if [ -d output ]
+then
+        rm -rf "$SSL_INS/*"
+else
+        mkdir output
+fi
+if [[ "$PATH" != *$var* ]]
+then
+	export PATH=$PATH:/home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/bin/arm-oe-linux-gnueabi
+fi
+./Configure linux-armv4 --prefix=$SSL_INS --cross-compile-prefix=arm-oe-linux-gnueabi- --sysroot=/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf
+
+make clean
+make
+make install
+}
+
+fun_curl(){
+cd $CURL_DIR
+if [ -d output ]
+then
+        rm "$CURL_INS/*"
+else
+        mkdir output
+fi
+export PATH=$PATH:/home/chenyujie/learngit/sim_crosscompile/sysroots/x86_64-linux/usr/bin/arm-oe-linux-gnueabi
+
+CPPFLAGS="-I$SSL_INC" LDFLAGS="-L$SSL_LIB" LIBS="-ldl" ./configure --prefix=$CURL_INS --host=arm-linux CC="arm-oe-linux-gnueabi-gcc --sysroot=/home/chenyujie/learngit/sim_crosscompile/sysroots/mdm9607-perf" CXX=arm-oe-linux-gnueabi-g++ --with-ssl --enable-shared --enable-static --disable-dict --enable-ftp --disable-imap --disable-ldap --disable-ldaps --disable-pop3 --disable-proxy --disable-rtsp --disable-smtp --disable-telnet --disable-tftp --disable-zlib --without-ca-bundle --without-gnutls --without-libidn --without-librtmp --without-libssh2 --without-nss --without-zlib
+
+make clean
+make
+make install
+cd $DIR
+}
 ###############################start###########################
 if [ -z "$1" ]
 then
-func1
+	func_help
 elif [ -n "$1" ]
 then
-func2 $1
+	func_handle $1
 fi
 if [ -n "$2" ] && [ "$2" != "$1" ]
 then
-func2 $2
+	func_handle $2
 fi
 if [ -n "$3" ] && [ "$3" != "$2" ] && [ "$3" != "$2" ]
 then
-func2 $3
+	func_handle $3
 fi
-
-
+if [ -n "$4" ]&& [ "$4" != "$3" ] && [ "$4" != "$2" ] && [ "$4" != "$1" ]
+then
+	fun_handle $4
+fi
+#######################compling curl###########################

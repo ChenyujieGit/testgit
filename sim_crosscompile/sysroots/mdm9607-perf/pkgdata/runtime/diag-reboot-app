@@ -1,0 +1,19 @@
+PN: diag-reboot-app
+PV: git-779efc959ce1c369960d2eaef6a7894682efbee6
+PR: r5
+PKGV: git-779efc959ce1c369960d2eaef6a7894682efbee6
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Reboot Diag
+SUMMARY: diag-reboot-app version git-779efc959ce1c369960d2eaef6a7894682efbee6-r5
+RDEPENDS_diag-reboot-app: diag (>= git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c) glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+SECTION: base
+PKG_diag-reboot-app: diag-reboot-app
+FILES_diag-reboot-app: /usr/bin/* /usr/sbin/* /usr/lib/diag-reboot-app/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/diag-reboot-app /usr/lib/diag-reboot-app/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_diag-reboot-app: /usr/bin/diagrebootapp
+FILES_INFO: {"/etc/init.d/diagrebootapp": 408, "/usr/bin/diagrebootapp": 9960}
+FILERPROVIDES_/usr/bin/diagrebootapp_diag-reboot-app: elf(buildid) (= c09b4220d7a17c1dd9b8805e527d929e828b4a5a)
+FILERDEPENDSFLIST_diag-reboot-app: /etc/init.d/diagrebootapp /usr/bin/diagrebootapp
+FILERDEPENDS_/etc/init.d/diagrebootapp_diag-reboot-app: /bin/sh
+FILERDEPENDS_/usr/bin/diagrebootapp_diag-reboot-app: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_diag-reboot-app: 10368

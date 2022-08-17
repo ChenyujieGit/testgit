@@ -1,0 +1,13 @@
+PN: mcm-core
+PV: git-0179c58468feddf7ccce697f495cc557df367dc1
+PR: r5
+PKGV: git-0179c58468feddf7ccce697f495cc557df367dc1
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mcm-core-doc: QTI Mobile Connection Manager Core libraries and Service  This package contains documentation.
+SUMMARY_mcm-core-doc: mcm-core version git-0179c58468feddf7ccce697f495cc557df367dc1-r5 - Documentation files
+SECTION_mcm-core-doc: doc
+PKG_mcm-core-doc: mcm-core-doc
+FILES_mcm-core-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_mcm-core-doc: 0

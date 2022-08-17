@@ -1,0 +1,7 @@
+libamrnb.so.1:/usr/lib:git-084e4b30734404e8a26ed224e8ccb81d77dfabc6
+libmp4ff.so.1:/usr/lib:git-084e4b30734404e8a26ed224e8ccb81d77dfabc6
+libalsa_intf.so.1:/usr/lib:git-084e4b30734404e8a26ed224e8ccb81d77dfabc6
+liblytts.so.0:/usr/lib:git-084e4b30734404e8a26ed224e8ccb81d77dfabc6
+libfaad2.so.1:/usr/lib:git-084e4b30734404e8a26ed224e8ccb81d77dfabc6
+libfdk-aac.so.1:/usr/lib:git-084e4b30734404e8a26ed224e8ccb81d77dfabc6
+libmad.so.1:/usr/lib:git-084e4b30734404e8a26ed224e8ccb81d77dfabc6

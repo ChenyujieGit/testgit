@@ -1,0 +1,16 @@
+PN: simcom-ssl
+PV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PR: r1
+PKGV: git-4d5dc75423dd3e9065545e459747514a1f49fe0d
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_simcom-ssl-dev: simcom-ssl  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_simcom-ssl-dev: simcom-ssl version git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r1 - Development files
+RDEPENDS_simcom-ssl-dev: simcom-ssl (= git-4d5dc75423dd3e9065545e459747514a1f49fe0d-r1)
+RRECOMMENDS_simcom-ssl-dev: glib-2.0-dev qmi-framework-dev glibc-dev qmi-dev initscripts-dev
+SECTION_simcom-ssl-dev: devel
+PKG_simcom-ssl-dev: simcom-ssl-dev
+ALLOW_EMPTY_simcom-ssl-dev: 1
+FILES_simcom-ssl-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/simcom-ssl/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_simcom-ssl-dev: 0

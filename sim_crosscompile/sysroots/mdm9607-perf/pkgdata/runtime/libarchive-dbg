@@ -1,0 +1,15 @@
+PN: libarchive
+PV: 3.1.2
+PR: r0
+PKGV: 3.1.2
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_libarchive-dbg: C library and command-line tools for reading and writing tar, cpio, zip, ISO, and other archive formats  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libarchive-dbg: Support for reading various archive formats - Debugging files
+RRECOMMENDS_libarchive-dbg: libbz2-dbg libxml2-dbg glibc-dbg zlib-dbg libattr-dbg
+SECTION_libarchive-dbg: devel
+PKG_libarchive-dbg: libarchive-dbg
+ALLOW_EMPTY_libarchive-dbg: 1
+FILES_libarchive-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libarchive/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libarchive/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libarchive/libarchive/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/bsdtar": 97777, "/usr/bin/.debug/bsdcpio": 93121, "/usr/lib/.debug/libarchive.so.13.1.2": 95077}
+PKGSIZE_libarchive-dbg: 285975

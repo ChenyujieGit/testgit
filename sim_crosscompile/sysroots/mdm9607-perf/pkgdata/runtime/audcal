@@ -1,0 +1,19 @@
+PN: audcal
+PV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PR: r11
+PKGV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PKGR: r11
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Audio Calibration Library
+SUMMARY: audcal version git-ded3b72614dd8b6cbf1146035b0e4960f16948f6-r11
+RDEPENDS_audcal: audioalsa (>= git) diag (>= git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c) time-genoff (>= git-f77a782ed4676dfdcc741d30cb954229c6e7feb2) glib-2.0 (>= 2.42.1) acdbmapper (>= git-ded3b72614dd8b6cbf1146035b0e4960f16948f6) glibc (>= 2.21)
+RPROVIDES_audcal:  audcal
+SECTION: base
+PKG_audcal: libaudcal1
+FILES_audcal: /usr/bin/* /usr/sbin/* /usr/lib/audcal/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/audcal /usr/lib/audcal/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_audcal: /usr/lib/libaudcal.so.1.0.0
+FILES_INFO: {"/etc/Handset_cal.acdb": 82815, "/etc/Headset_cal.acdb": 60051, "/etc/Bluetooth_cal.acdb": 1074, "/etc/General_cal.acdb": 4766, "/etc/Handset_tianmai.acdb": 82815, "/usr/lib/libaudcal.so.1": 161552, "/etc/Speaker_cal.acdb": 71696, "/etc/Global_cal.acdb": 4446, "/etc/Handset_dingxin.acdb": 82813, "/etc/Hdmi_cal.acdb": 1064}
+FILERPROVIDES_/usr/lib/libaudcal.so.1.0.0_audcal: elf(buildid) (= 2cf26ecebb72e9ff6c7db5e4ac33f0ebee97a354) libaudcal.so.1
+FILERDEPENDSFLIST_audcal: /usr/lib/libaudcal.so.1.0.0
+FILERDEPENDS_/usr/lib/libaudcal.so.1.0.0_audcal: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libacdbmapper.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_audcal: 553092

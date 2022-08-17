@@ -1,0 +1,14 @@
+PN: usb-escape
+PV: git-a16519339972d2f73fdff4670ddebaa97df5918e
+PR: r3
+PKGV: git-a16519339972d2f73fdff4670ddebaa97df5918e
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_usb-escape-staticdev: Daemon to handle +++  This package contains static libraries for software development.
+SUMMARY_usb-escape-staticdev: usb-escape version git-a16519339972d2f73fdff4670ddebaa97df5918e-r3 - Development files (Static Libraries)
+RDEPENDS_usb-escape-staticdev: usb-escape-dev (= git-a16519339972d2f73fdff4670ddebaa97df5918e-r3)
+SECTION_usb-escape-staticdev: devel
+PKG_usb-escape-staticdev: usb-escape-staticdev
+FILES_usb-escape-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/usb-escape/*.a
+FILES_INFO: {}
+PKGSIZE_usb-escape-staticdev: 0

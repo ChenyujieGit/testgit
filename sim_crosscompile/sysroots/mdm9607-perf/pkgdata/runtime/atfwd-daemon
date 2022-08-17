@@ -1,0 +1,19 @@
+PN: atfwd-daemon
+PV: git-bda2b7bd245101d25dfc00320ef7b639b4deefe7
+PR: r3
+PKGV: git-bda2b7bd245101d25dfc00320ef7b639b4deefe7
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Daemon to handle AT commands
+SUMMARY: atfwd-daemon version git-bda2b7bd245101d25dfc00320ef7b639b4deefe7-r3
+RDEPENDS_atfwd-daemon: diag (>= git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c) glibc (>= 2.21) qmi (>= git-d633a6bef403b9a1f5b98885daf1b27910d50b4e) qmi-framework (>= git-6f65ad1c96085c93e865daf41eb6e685c26b8505) dsutils (>= git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa) data (>= git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa)
+SECTION: base
+PKG_atfwd-daemon: atfwd-daemon
+FILES_atfwd-daemon: /usr/bin/* /usr/sbin/* /usr/lib/atfwd-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/atfwd-daemon /usr/lib/atfwd-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_atfwd-daemon: /usr/bin/atfwd@underscore@daemon
+FILES_INFO: {"/usr/bin/atfwd_daemon": 661468, "/etc/init.d/start_atfwd_daemon": 393}
+FILERPROVIDES_/usr/bin/atfwd@underscore@daemon_atfwd-daemon: elf(buildid) (= c86e6c97aaa3a86fd44d9ee82d2f9e7124522d06)
+FILERDEPENDSFLIST_atfwd-daemon: /etc/init.d/start@underscore@atfwd@underscore@daemon /usr/bin/atfwd@underscore@daemon
+FILERDEPENDS_/etc/init.d/start@underscore@atfwd@underscore@daemon_atfwd-daemon: /bin/sh
+FILERDEPENDS_/usr/bin/atfwd@underscore@daemon_atfwd-daemon: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdiag.so.1 libdsi_netctrl.so.0 libdsutils.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmapipc.so.1 libqmi.so.1 libqmi_cci.so.1 libqmiservices.so.1 rtld(GNU_HASH)
+PKGSIZE_atfwd-daemon: 661861

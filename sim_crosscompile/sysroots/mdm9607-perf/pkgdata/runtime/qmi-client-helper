@@ -1,0 +1,19 @@
+PN: qmi-client-helper
+PV: git-d633a6bef403b9a1f5b98885daf1b27910d50b4e
+PR: r0
+PKGV: git-d633a6bef403b9a1f5b98885daf1b27910d50b4e
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMI Client Helper Module
+SUMMARY: qmi-client-helper version git-d633a6bef403b9a1f5b98885daf1b27910d50b4e-r0
+RDEPENDS_qmi-client-helper: diag (>= git-1f50c9b9f0d781148b0f44cc5df9960e6aa89f9c) time-genoff (>= git-f77a782ed4676dfdcc741d30cb954229c6e7feb2) glib-2.0 (>= 2.42.1) qmi (>= git-d633a6bef403b9a1f5b98885daf1b27910d50b4e) qmi-framework (>= git-6f65ad1c96085c93e865daf41eb6e685c26b8505) configdb (>= git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa) dsutils (>= git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa) xmllib (>= git-f309302103e55fedb509ba0c806274e24c9bcb1b) glibc (>= 2.21)
+RPROVIDES_qmi-client-helper:  qmi-client-helper
+SECTION: base
+PKG_qmi-client-helper: libqmi-client-helper1
+FILES_qmi-client-helper: /usr/bin/* /usr/sbin/* /usr/lib/qmi-client-helper/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qmi-client-helper /usr/lib/qmi-client-helper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_qmi-client-helper: /usr/lib/libqmi@underscore@client@underscore@helper.so.1.0.0
+FILES_INFO: {"/usr/lib/libqmi_client_helper.so.1": 13968}
+FILERPROVIDES_/usr/lib/libqmi@underscore@client@underscore@helper.so.1.0.0_qmi-client-helper: elf(buildid) (= c74b8a7d2127a001534cb835c92ca5ed4c83fbd1) libqmi_client_helper.so.1
+FILERDEPENDSFLIST_qmi-client-helper: /usr/lib/libqmi@underscore@client@underscore@helper.so.1.0.0
+FILERDEPENDS_/usr/lib/libqmi@underscore@client@underscore@helper.so.1.0.0_qmi-client-helper: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libqmi.so.1 libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_qmi-client-helper: 13968

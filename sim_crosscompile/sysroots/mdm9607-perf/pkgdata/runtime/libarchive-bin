@@ -1,0 +1,20 @@
+PN: libarchive
+PV: 3.1.2
+PR: r0
+PKGV: 3.1.2
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: C library and command-line tools for reading and writing tar, cpio, zip, ISO, and other archive formats
+SUMMARY: Support for reading various archive formats
+RDEPENDS_libarchive-bin: glibc (>= 2.21) zlib (>= 1.2.8) libbz2 (>= 1.0.6) libattr (>= 2.4.47)
+SECTION: devel
+PKG_libarchive-bin: libarchive-bin
+FILES_libarchive-bin: /usr/bin/* /usr/sbin/*
+FILERPROVIDESFLIST_libarchive-bin: /usr/bin/bsdcpio /usr/bin/bsdtar
+FILES_INFO: {"/usr/bin/bsdcpio": 489856, "/usr/bin/bsdtar": 510336}
+FILERPROVIDES_/usr/bin/bsdcpio_libarchive-bin: elf(buildid) (= 1f7ca196c295fba7c1933e5d3725342ea9c936d7)
+FILERPROVIDES_/usr/bin/bsdtar_libarchive-bin: elf(buildid) (= dac762585d18a2829c4a1864adbd0b7223283916)
+FILERDEPENDSFLIST_libarchive-bin: /usr/bin/bsdcpio /usr/bin/bsdtar
+FILERDEPENDS_/usr/bin/bsdcpio_libarchive-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libattr.so.1 libattr.so.1(ATTR_1.0) libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/bsdtar_libarchive-bin: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libattr.so.1 libattr.so.1(ATTR_1.0) libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libz.so.1 rtld(GNU_HASH)
+PKGSIZE_libarchive-bin: 1000192

@@ -1,0 +1,14 @@
+PN: acdbmapper
+PV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PR: r2
+PKGV: git-ded3b72614dd8b6cbf1146035b0e4960f16948f6
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb mapper Library
+SUMMARY: acdbmapper version git-ded3b72614dd8b6cbf1146035b0e4960f16948f6-r2
+RPROVIDES_acdbmapper-locale:  acdbmapper-locale
+SECTION: base
+PKG_acdbmapper-locale: libacdbmapper-locale
+FILES_acdbmapper-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_acdbmapper-locale: 0

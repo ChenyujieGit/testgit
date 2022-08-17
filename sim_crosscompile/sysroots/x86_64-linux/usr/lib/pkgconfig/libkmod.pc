@@ -1,0 +1,11 @@
+prefix=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr
+exec_prefix=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr
+libdir=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/lib
+includedir=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 19
+Libs: -L${libdir} -lkmod
+Libs.private:  -L/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/lib -lz 
+Cflags: -I${includedir}

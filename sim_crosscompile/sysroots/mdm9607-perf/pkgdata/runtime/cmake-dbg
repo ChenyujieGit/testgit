@@ -1,0 +1,15 @@
+PN: cmake
+PV: 2.8.12.2
+PR: r1
+PKGV: 2.8.12.2
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_cmake-dbg: Cross-platform, open-source make system.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_cmake-dbg: Cross-platform, open-source make system - Debugging files
+RRECOMMENDS_cmake-dbg: glibc-dbg libarchive-dbg libcurl-dbg libstdc++-dbg libgcc-dbg expat-dbg zlib-dbg
+SECTION_cmake-dbg: devel
+PKG_cmake-dbg: cmake-dbg
+ALLOW_EMPTY_cmake-dbg: 1
+FILES_cmake-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/cmake/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/cmake/.debug /usr/lib/matchbox-panel/.debug /usr/lib/cmake/cmake/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/cmake": 624153, "/usr/bin/.debug/cpack": 657348, "/usr/bin/.debug/ctest": 753613}
+PKGSIZE_cmake-dbg: 2035114

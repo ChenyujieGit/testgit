@@ -1,0 +1,12 @@
+prefix=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr
+exec_prefix=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr
+libdir=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/lib
+includedir=/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/include
+
+Name: GObject
+Description: GLib Type, Object, Parameter and Signal Library
+Requires: glib-2.0
+Version: 2.42.1
+Libs: -L${libdir} -lgobject-2.0
+Libs.private: -L/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/lib/../lib -lffi 
+Cflags:

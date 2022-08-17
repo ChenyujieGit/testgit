@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-userdir: Lighttpd module for userdir
+SUMMARY_lighttpd-module-userdir: Lighttpd module for userdir
+RDEPENDS_lighttpd-module-userdir: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-userdir: lighttpd-module-userdir
+FILES_lighttpd-module-userdir: /usr/lib/mod_userdir.so
+FILERPROVIDESFLIST_lighttpd-module-userdir: /usr/lib/mod@underscore@userdir.so
+FILES_INFO: {"/usr/lib/mod_userdir.so": 9908}
+FILERPROVIDES_/usr/lib/mod@underscore@userdir.so_lighttpd-module-userdir: elf(buildid) (= 6df77ed7a77322fa59c087ce24c20ee2744275e5) mod_userdir.so
+FILERDEPENDSFLIST_lighttpd-module-userdir: /usr/lib/mod@underscore@userdir.so
+FILERDEPENDS_/usr/lib/mod@underscore@userdir.so_lighttpd-module-userdir: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-userdir: 9908

@@ -1,0 +1,13 @@
+PN: qmi-framework
+PV: git-6f65ad1c96085c93e865daf41eb6e685c26b8505
+PR: r7
+PKGV: git-6f65ad1c96085c93e865daf41eb6e685c26b8505
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMI Framework Library
+SUMMARY: qmi-framework version git-6f65ad1c96085c93e865daf41eb6e685c26b8505-r7
+SECTION: base
+PKG_qmi-framework-locale: qmi-framework-locale
+FILES_qmi-framework-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qmi-framework-locale: 0

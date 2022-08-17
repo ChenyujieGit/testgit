@@ -1,0 +1,16 @@
+PN: usb-escape
+PV: git-a16519339972d2f73fdff4670ddebaa97df5918e
+PR: r3
+PKGV: git-a16519339972d2f73fdff4670ddebaa97df5918e
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_usb-escape-dev: Daemon to handle +++  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_usb-escape-dev: usb-escape version git-a16519339972d2f73fdff4670ddebaa97df5918e-r3 - Development files
+RDEPENDS_usb-escape-dev: usb-escape (= git-a16519339972d2f73fdff4670ddebaa97df5918e-r3)
+RRECOMMENDS_usb-escape-dev: glib-2.0-dev glibc-dev qmi-dev qmi-framework-dev
+SECTION_usb-escape-dev: devel
+PKG_usb-escape-dev: usb-escape-dev
+ALLOW_EMPTY_usb-escape-dev: 1
+FILES_usb-escape-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/usb-escape/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_usb-escape-dev: 0

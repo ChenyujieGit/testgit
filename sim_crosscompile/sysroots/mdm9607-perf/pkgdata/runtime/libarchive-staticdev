@@ -1,0 +1,14 @@
+PN: libarchive
+PV: 3.1.2
+PR: r0
+PKGV: 3.1.2
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_libarchive-staticdev: C library and command-line tools for reading and writing tar, cpio, zip, ISO, and other archive formats  This package contains static libraries for software development.
+SUMMARY_libarchive-staticdev: Support for reading various archive formats - Development files (Static Libraries)
+RDEPENDS_libarchive-staticdev: libarchive-dev (= 3.1.2-r0)
+SECTION_libarchive-staticdev: devel
+PKG_libarchive-staticdev: libarchive-staticdev
+FILES_libarchive-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libarchive/*.a
+FILES_INFO: {"/usr/lib/libarchive.a": 835220}
+PKGSIZE_libarchive-staticdev: 835220
