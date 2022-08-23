@@ -1,3 +1,0 @@
-#!/bin/bash
-realpath=`readlink -fn $0`
-exec -a `dirname $realpath`/groff `dirname $realpath`/groff.real -F/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/share/groff/1.22.2/font -M/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/share/groff/1.22.2/tmac "$@"

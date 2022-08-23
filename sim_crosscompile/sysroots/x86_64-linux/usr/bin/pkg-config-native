@@ -1,7 +1,0 @@
-#! /bin/sh
-
-PKG_CONFIG_PATH="/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/lib/pkgconfig:/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/share/pkgconfig"
-PKG_CONFIG_LIBDIR="/home/mk-build1/haotian/LE11_LATEST_AP/oe-core/build/tmp-glibc/sysroots/x86_64-linux/usr/lib/pkgconfig"
-unset PKG_CONFIG_SYSROOT_DIR
-
-pkg-config "$@"
