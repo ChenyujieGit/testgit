@@ -1,3 +1,0 @@
-libmbedtls.so.10:/usr/lib:git-4d5dc75423dd3e9065545e459747514a1f49fe0d
-libmbedcrypto.so.0:/usr/lib:git-4d5dc75423dd3e9065545e459747514a1f49fe0d
-libmbedx509.so.0:/usr/lib:git-4d5dc75423dd3e9065545e459747514a1f49fe0d

@@ -1,0 +1,11 @@
+prefix=/opt/broadcom/host/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libftdipp
+Description: C++ wrapper for libftdi
+Requires: libftdi
+Version: 0.19
+Libs: -L${libdir} -lftdipp
+Cflags: -I${includedir}

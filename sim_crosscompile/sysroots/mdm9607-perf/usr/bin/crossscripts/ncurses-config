@@ -1,3 +1,0 @@
-#!/bin/sh
-echo '--should-not-have-used-/usr/bin/ncurses-config'
-exit 1

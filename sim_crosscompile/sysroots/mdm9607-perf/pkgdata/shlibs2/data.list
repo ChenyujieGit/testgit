@@ -1,9 +1,0 @@
-libnetmgr.so.0:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
-libdsi_netctrl.so.0:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
-libqcmap_client.so.1:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
-libqmi_ip.so.1:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
-libqcmapipc.so.1:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
-libqdi.so.0:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
-libqcmap_cm.so.1:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
-libqcmaputils.so.1:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa
-libqdp.so.0:/usr/lib:git-1cd3ca903d322cbef6ba7c6a17b4af1551e56cfa

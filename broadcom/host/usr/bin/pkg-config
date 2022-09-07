@@ -1,0 +1,2 @@
+#!/bin/sh
+PKG_CONFIG_LIBDIR=${PKG_CONFIG_LIBDIR:-/opt/broadcom/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/lib/pkgconfig:/opt/broadcom/host/usr/arm-buildroot-linux-gnueabi/sysroot/usr/share/pkgconfig} PKG_CONFIG_SYSROOT_DIR=${PKG_CONFIG_SYSROOT_DIR:-/opt/broadcom/host/usr/arm-buildroot-linux-gnueabi/sysroot} $(dirname $0)/pkgconf $@
